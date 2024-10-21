@@ -1,0 +1,844 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header Styles */
+header {
+    background-color: #2f855a;
+    padding: 20px 0;
+}
+
+.logo img {
+    width: 150px;
+    margin-left: 20px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+
+nav ul li a:hover {
+    color: #bee3f8;
+}
+
+/* Hero Section */
+.hero {
+    background-color: #68d391;
+    padding: 100px 20px;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 48px;
+    color: #fff;
+}
+
+.hero p {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #2f855a;
+    color: white;
+    border: none;
+    font-size: 18px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #276749;
+}
+
+/* About Mental Health Section */
+.about-mental-health {
+    padding: 50px 20px;
+    background-color: #f7fafc;
+    text-align: center;
+}
+
+.about-mental-health h2 {
+    font-size: 32px;
+    color: #2f855a;
+    margin-bottom: 20px;
+}
+
+.about-mental-health p {
+    font-size: 20px;
+    color: #4a5568;
+    margin-bottom: 20px;
+    line-height: 1.8;
+}
+
+/* Services Section */
+.services {
+    padding: 50px 20px;
+    background-color: #e6fffa;
+}
+
+.services h2 {
+    font-size: 32px;
+    color: #2f855a;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.service-item {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.service-item h3 {
+    font-size: 24px;
+    color: #2c7a7b;
+}
+
+.service-item p {
+    font-size: 18px;
+    color: #2d3748;
+}
+
+.service-link {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #2f855a;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.service-link:hover {
+    background-color: #276749;
+}
+
+/* Footer */
+footer {
+    background-color: #2f855a;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header Styles */
+header {
+    background-color: #2f855a;
+    padding: 20px 0;
+}
+
+.logo img {
+    width: 150px;
+    margin-left: 20px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+
+nav ul li a:hover {
+    color: #bee3f8;
+}
+
+/* Support Intro Section */
+.support-intro {
+    padding: 50px 20px;
+    background-color: #f7fafc;
+    text-align: center;
+}
+
+.support-intro h1 {
+    font-size: 48px;
+    color: #2f855a;
+}
+
+.support-intro p {
+    font-size: 20px;
+    color: #4a5568;
+    margin-top: 20px;
+    line-height: 1.8;
+}
+
+/* Support Options Section */
+.support-options {
+    padding: 50px 20px;
+    background-color: #e6fffa;
+}
+
+.support-options h2 {
+    font-size: 32px;
+    color: #2f855a;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.support-card {
+    background-color: white;
+    border: 1px solid #c3d6d5;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 30px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.support-card h3 {
+    font-size: 24px;
+    color: #2c7a7b;
+}
+
+.support-card p {
+    font-size: 18px;
+    color: #2d3748;
+    margin: 15px 0;
+}
+
+.support-link {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #2f855a;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.support-link:hover {
+    background-color: #276749;
+}
+
+/* Emergency Support Section */
+.emergency-support {
+    padding: 50px 20px;
+    background-color: #f7fafc;
+    text-align: center;
+}
+
+.emergency-support h2 {
+    font-size: 32px;
+    color: #e53e3e;
+}
+
+.emergency-support ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.emergency-support ul li {
+    font-size: 20px;
+    margin: 10px 0;
+    color: #2d3748;
+}
+
+/* Self-Help Resources Section */
+.self-help {
+    padding: 50px 20px;
+    background-color: #e6fffa;
+    text-align: center;
+}
+
+.self-help h2 {
+    font-size: 32px;
+    color: #2f855a;
+    margin-bottom: 30px;
+}
+
+.self-help ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.self-help ul li {
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.self-help ul li a {
+    text-decoration: none;
+    color: #2f855a;
+}
+
+.self-help ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Footer */
+footer {
+    background-color: #2f855a;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header Styles */
+header {
+    background-color: #2f855a;
+    padding: 20px 0;
+}
+
+.logo img {
+    width: 150px;
+    margin-left: 20px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+
+nav ul li a:hover {
+    color: #bee3f8;
+}
+
+/* Contact Intro Section */
+.contact-intro {
+    padding: 50px 20px;
+    background-color: #f7fafc;
+    text-align: center;
+}
+
+.contact-intro h1 {
+    font-size: 48px;
+    color: #2f855a;
+}
+
+.contact-intro p {
+    font-size: 20px;
+    color: #4a5568;
+    margin-top: 20px;
+    line-height: 1.8;
+}
+
+/* Contact Details Section */
+.contact-details {
+    padding: 50px 20px;
+    background-color: #e6fffa;
+    text-align: center;
+}
+
+.contact-details h2 {
+    font-size: 32px;
+    color: #2f855a;
+    margin-bottom: 20px;
+}
+
+.contact-info p {
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+/* Contact Form Section */
+.contact-form {
+    padding: 50px 20px;
+    background-color: #f7fafc;
+    text-align: center;
+}
+
+.contact-form h2 {
+    font-size: 32px;
+    color: #2f855a;
+    margin-bottom: 30px;
+}
+
+form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #c3d6d5;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #2f855a;
+    color: white;
+    border: none;
+    font-size: 18px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #276749;
+}
+
+/* Emergency Support Section */
+.emergency-support {
+    padding: 50px 20px;
+    background-color: #e6fffa;
+    text-align: center;
+}
+
+.emergency-support h2 {
+    font-size: 32px;
+    color: #e53e3e;
+}
+
+.emergency-support ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.emergency-support ul li {
+    font-size: 20px;
+    margin: 10px 0;
+    color: #2d3748;
+}
+
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header Styles */
+header {
+    background-color: #2f855a;
+    padding: 20px 0;
+}
+
+.logo img {
+    width: 150px;
+    margin-left: 20px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+
+nav ul li a:hover {
+    color: #bee3f8;
+}
+
+/* Help Intro Section */
+.help-intro {
+    padding: 50px 20px;
+    background-color: #f7fafc;
+    text-align: center;
+}
+
+.help-intro h1 {
+    font-size: 48px;
+    color: #2f855a;
+}
+
+.help-intro p {
+    font-size: 20px;
+    color: #4a5568;
+    margin-top: 20px;
+    line-height: 1.8;
+}
+
+/* Help Steps Section */
+.help-tips {
+    padding: 50px 20px;
+    background-color: #e6fffa;
+}
+
+.help-tips h2 {
+    font-size: 32px;
+    color: #2f855a;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.help-step {
+    background-color: white;
+    border: 1px solid #c3d6d5;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 30px;
+    text-align: left;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.help-step h3 {
+    font-size: 24px;
+    color: #2c7a7b;
+    margin-bottom: 10px;
+}
+
+.help-step p {
+    font-size: 18px;
+    color: #2d3748;
+    line-height: 1.6;
+}
+
+.support-link {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #2f855a;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.support-link:hover {
+    background-color: #276749;
+}
+
+/* Self-Care Section */
+.self-care {
+    padding: 50px 20px;
+    background-color: #f7fafc;
+    text-align: center;
+}
+
+.self-care h2 {
+    font-size: 32px;
+    color: #2f855a;
+    margin-bottom: 30px;
+}
+
+.self-care p {
+    font-size: 20px;
+    color: #4a5568;
+    margin-bottom: 30px;
+    line-height: 1.8;
+}
+
+.self-care ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.self-care ul li {
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.self-care ul li a {
+    text-decoration: none;
+    color: #2f855a;
+}
+
+.self-care ul li a:hover {
+    text-decoration: underline;
+}
+
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header Styles */
+header {
+    background-color: #2f855a;
+    padding: 20px 0;
+}
+
+.logo img {
+    width: 150px;
+    margin-left: 20px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+
+nav ul li a:hover {
+    color: #bee3f8;
+}
+
+/* Conditions Intro Section */
+.conditions-intro {
+    padding: 50px 20px;
+    background-color: #f7fafc;
+    text-align: center;
+}
+
+.conditions-intro h1 {
+    font-size: 48px;
+    color: #2f855a;
+}
+
+.conditions-intro p {
+    font-size: 20px;
+    color: #4a5568;
+    margin-top: 20px;
+    line-height: 1.8;
+}
+
+/* Conditions Grid */
+.conditions-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 50px 20px;
+    background-color: #e6fffa;
+}
+
+.condition-card {
+    background-color: white;
+    border: 1px solid #c3d6d5;
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.condition-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+.condition-card h3 {
+    font-size: 24px;
+    color: #2c7a7b;
+    margin-bottom: 10px;
+}
+
+.condition-card p {
+    font-size: 18px;
+    color: #2d3748;
+    line-height: 1.6;
+}
+
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header Styles */
+header {
+    background-color: #2f855a;
+    padding: 20px 0;
+}
+
+.logo img {
+    width: 150px;
+    margin-left: 20px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+
+nav ul li a:hover {
+    color: #bee3f8;
+}
+
+/* About Intro Section */
+.about-intro {
+    padding: 50px 20px;
+    background-color: #f7fafc;
+    text-align: center;
+}
+
+.about-intro h1 {
+    font-size: 48px;
+    color: #2f855a;
+}
+
+.about-intro p {
+    font-size: 20px;
+    color: #4a5568;
+    margin-top: 20px;
+    line-height: 1.8;
+}
+
+/* Team Section */
+.team-section {
+    padding: 50px 20px;
+    background-color: #e6fffa;
+    text-align: center;
+}
+
+.team-section h2 {
+    font-size: 32px;
+    color: #2f855a;
+    margin-bottom: 40px;
+}
+
+.team-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.team-member {
+    background-color: white;
+    border: 1px solid #c3d6d5;
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.team-member img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+
+.team-member h3 {
+    font-size: 24px;
+    color: #2c7a7b;
+}
+
+.team-member p {
+    font-size: 18px;
+    color: #2d3748;
+    line-height: 1.6;
+}
+
+
